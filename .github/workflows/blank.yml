@@ -6,6 +6,6 @@ jobs:
     steps:
       - name: print my name
         run: |
-            echo "my name is vamshi"
-            echo "my name is balu"
-            echo "my name is vishnu"
+              echo "my name is vamshi"
+              echo "my name is balu"
+              echo "my name is vishnu"
