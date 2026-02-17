@@ -5,4 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print my name
-        run: echo "my name is vamshi"
+        run: |
+            echo "my name is vamshi"
+            echo "my name is balu"
+            echo "my name is vishnu"
