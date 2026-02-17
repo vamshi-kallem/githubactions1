@@ -1,0 +1,8 @@
+name: vamshi
+on: workflow_dispatch
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print my name
+        run: echo "my name is vamshi"
