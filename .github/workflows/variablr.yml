@@ -1,0 +1,8 @@
+name: demovaribale
+on: workflow_dispatch
+jobs:
+  variable:
+    runs-on: macos-latest
+    steps:
+      - name: print variable
+        run: echo hello, "{{vars.MY_NAME}}"
